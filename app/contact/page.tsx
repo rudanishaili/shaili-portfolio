@@ -14,7 +14,7 @@ export default function ContactPage() {
       icon: "💼",
       title: "LinkedIn",
       value: "Connect with me",
-      link: "https://www.linkedin.com/",
+      link: "https://www.linkedin.com/in/shaili-rudani-7b6527246/",
     },
     {
       icon: "💻",
