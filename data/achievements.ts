@@ -34,6 +34,13 @@ export const certifications = [
     tag: "Innovation",
     image: "/certificates/samsung.jpeg",
   },
+  {
+    tag: "AI",
+    title: "Google AI Professional Certificate",
+    issuer: "Google • Coursera",
+    date: "18 Jun 2026",
+    image: "/certificates/google-ai-professional.jpeg",
+  },
 ];
 
 export const academicSubjects = [

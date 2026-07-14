@@ -7,6 +7,7 @@ export default function Navbar() {
       <Link href="/about">About</Link>{" "}
       <Link href="/skills">Skills</Link>{" "}
       <Link href="/projects">Projects</Link>{" "}
+      <Link href="/experience">Internship</Link>{" "}
       <Link href="/certificates">Certificates</Link>{" "}
       <Link href="/contact">Contact</Link>
     </nav>

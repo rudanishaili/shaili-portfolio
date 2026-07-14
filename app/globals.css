@@ -1550,3 +1550,303 @@ section > h1 {
   width: 34px;
   background: #2563eb;
 }
+
+/* ======================================= */
+/* EXPERIENCE PAGE */
+/* ======================================= */
+
+.experience-page{
+    width:min(1350px,92%);
+    margin:auto;
+    padding:30px 0 90px;
+    position:relative;
+    overflow:hidden;
+}
+
+/* Background blobs */
+
+.experience-page::before{
+    content:"";
+    position:absolute;
+    width:520px;
+    height:520px;
+    background:#7aa8ff;
+    filter:blur(170px);
+    opacity:.18;
+    border-radius:50%;
+    left:-220px;
+    top:120px;
+    z-index:-2;
+}
+
+.experience-page::after{
+    content:"";
+    position:absolute;
+    width:480px;
+    height:480px;
+    background:#ffd278;
+    filter:blur(170px);
+    opacity:.18;
+    border-radius:50%;
+    right:-170px;
+    top:50px;
+    z-index:-2;
+}
+
+/* floating bubbles */
+
+.experience-page .bubble1,
+.experience-page .bubble2,
+.experience-page .bubble3{
+    position:absolute;
+    border-radius:50%;
+    filter:blur(90px);
+    z-index:-1;
+}
+
+.bubble1{
+    width:220px;
+    height:220px;
+    background:#6d8cff;
+    left:25%;
+    top:45%;
+    opacity:.18;
+}
+
+.bubble2{
+    width:180px;
+    height:180px;
+    background:#6fe6d8;
+    right:12%;
+    top:55%;
+    opacity:.16;
+}
+
+.bubble3{
+    width:240px;
+    height:240px;
+    background:#ffcb71;
+    left:65%;
+    bottom:8%;
+    opacity:.15;
+}
+
+/* ======================================= */
+
+.experience-hero{
+    display:grid;
+    grid-template-columns:1.2fr .8fr;
+    gap:50px;
+    align-items:start;
+    margin-bottom:10px;
+}
+
+/* ======================================= */
+
+.hero-tag{
+
+display:inline-block;
+padding:12px 28px;
+background:white;
+border-radius:999px;
+letter-spacing:5px;
+font-weight:700;
+color:#3366ff;
+margin-bottom:25px;
+box-shadow:0 12px 30px rgba(0,0,0,.06);
+
+}
+
+/* ======================================= */
+
+.hero-left h1{
+
+font-size:4rem;
+line-height:1.05;
+font-weight:900;
+color:#101828;
+margin-bottom:28px;
+max-width:650px;
+
+}
+
+.hero-left h1 span{
+
+background:linear-gradient(90deg,#4d7cff,#72dcb8);
+-webkit-background-clip:text;
+color:transparent;
+
+}
+
+/* ======================================= */
+
+.hero-left p{
+
+font-size:1.1rem;
+line-height:1.9;
+color:#667085;
+max-width:620px;
+
+}
+
+/* ======================================= */
+
+.internship-card{
+
+background:white;
+padding:38px;
+border-radius:32px;
+box-shadow:0 25px 70px rgba(0,0,0,.08);
+position:relative;
+transition:.35s;
+
+
+}
+
+.internship-card:hover{
+
+transform:translateY(-10px);
+
+}
+
+/* ======================================= */
+
+.number{
+
+position:absolute;
+top:15px;
+right:25px;
+font-size:6rem;
+font-weight:900;
+color:#dbe5ff;
+
+}
+
+.internship-card h3{
+
+font-size:2.2rem;
+margin-bottom:8px;
+color:#101828;
+
+}
+
+.internship-card p{
+
+font-size:1.1rem;
+color:#6b7280;
+margin-bottom:30px;
+
+}
+
+/* ======================================= */
+
+.stack{
+
+display:flex;
+flex-wrap:wrap;
+gap:14px;
+
+}
+
+.stack span{
+
+padding:12px 20px;
+border-radius:999px;
+background:#edf2ff;
+color:#3366ff;
+font-weight:700;
+
+}
+
+/* ======================================= */
+
+.certificate-section{
+
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:35px;
+margin-top: -40px;
+
+}
+
+.internship-card img{
+    width: 100%;
+    max-height: 160px;
+    object-fit: contain;
+    margin-top: 20px;
+}
+
+/* ======================================= */
+
+.certificate-card{
+
+background:white;
+margin-top: 10px;
+padding:30px;
+border-radius:30px;
+box-shadow:0 20px 60px rgba(0,0,0,.07);
+transition:.35s;
+
+}
+
+.certificate-card:hover{
+
+transform:translateY(-10px);
+
+}
+
+.certificate-info h2{
+
+font-size:2rem;
+margin-bottom:15px;
+color:#101828;
+
+}
+
+.certificate-info p{
+
+color:#667085;
+font-size:1.05rem;
+line-height:1.8;
+margin-bottom:25px;
+
+}
+
+/* certificate image */
+
+.certificate-card img{
+
+width:100%;
+height:420px;
+object-fit:contain;
+background:#f8f9fc;
+border-radius:20px;
+
+}
+
+/* ======================================= */
+
+@media(max-width:1050px){
+
+.experience-hero{
+
+grid-template-columns:1fr;
+min-height:auto;
+    height:auto;
+    padding:60px 0;
+
+}
+
+.certificate-section{
+
+grid-template-columns:1fr;
+
+}
+
+.hero-left h1{
+
+font-size:3rem;
+
+}
+
+}
