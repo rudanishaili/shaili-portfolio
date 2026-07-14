@@ -129,7 +129,7 @@ export default function ExperiencePage() {
           </div>
 
           <Image
-            src="/experience/2.jpe"
+            src="/experience/2.jpeg"
             alt="Appreciation"
             width={600}
             height={420}
