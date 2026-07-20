@@ -15,6 +15,8 @@ const projects = [
     count: 4,
     ext: "png",
     type: "desktop",
+    github: "https://github.com/yourusername/humanos",
+    live: "https://humanos.vercel.app",
   },
   {
     title: "Shaelix",
@@ -26,6 +28,8 @@ const projects = [
     count: 9,
     ext: "png",
     type: "carousel",
+    github: "https://github.com/yourusername/humanos",
+    live: "https://humanos.vercel.app",
   },
   {
     title: "TruthLens",
@@ -37,6 +41,8 @@ const projects = [
     count: 6,
     ext: "jpeg",
     type: "mobile",
+    github: "https://github.com/yourusername/humanos",
+    live: "https://humanos.vercel.app",
   },
   {
     title: "Smart Device Explorer",
@@ -48,6 +54,8 @@ const projects = [
     count: 6,
     ext: "png",
     type: "desktop",
+    github: "https://github.com/yourusername/humanos",
+    live: "https://humanos.vercel.app",
   },
 ];
 
@@ -124,8 +132,23 @@ export default function ProjectsPage() {
               </div>
 
               <div className="project-actions">
-                <button>GitHub</button>
-                <button>Live Demo</button>
+                <a
+                  href={project.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="project-btn"
+                >
+                  GitHub
+                </a>
+
+                <a
+                  href={project.live}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="project-btn primary"
+                >
+                  Live Demo
+                </a>
               </div>
             </motion.div>
 

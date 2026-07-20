@@ -1824,6 +1824,38 @@ border-radius:20px;
 
 }
 
+.project-actions{
+    display:flex;
+    gap:16px;
+    margin-top:25px;
+}
+
+.project-btn{
+    padding:12px 24px;
+    border-radius:999px;
+    text-decoration:none;
+    background:#ffffff;
+    color:#111;
+    font-weight:700;
+    transition:.3s;
+    border:2px solid transparent;
+}
+
+.project-btn:hover{
+    transform:translateY(-4px);
+    background:#3366ff;
+    color:white;
+}
+
+.project-btn.primary{
+    background:linear-gradient(90deg,#5d7cff,#63d7c6);
+    color:white;
+}
+
+.project-btn.primary:hover{
+    box-shadow:0 10px 25px rgba(93,124,255,.35);
+}
+
 /* ======================================= */
 
 @media(max-width:1050px){
