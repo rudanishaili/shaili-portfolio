@@ -15,7 +15,7 @@ const projects = [
     count: 4,
     ext: "png",
     type: "desktop",
-    github: "https://github.com/yourusername/humanos",
+    github: "https://github.com/rudanishaili/HumanOS",
     live: "https://humanos.vercel.app",
   },
   {
@@ -28,8 +28,8 @@ const projects = [
     count: 9,
     ext: "png",
     type: "carousel",
-    github: "https://github.com/yourusername/humanos",
-    live: "https://humanos.vercel.app",
+    github: "https://github.com/rudanishaili/shaelix",
+    live: "https://shaelix-front-iota.vercel.app/",
   },
   {
     title: "TruthLens",
@@ -41,7 +41,7 @@ const projects = [
     count: 6,
     ext: "jpeg",
     type: "mobile",
-    github: "https://github.com/yourusername/humanos",
+    github: "https://github.com/rudanishaili/TruthLens-AI",
     live: "https://humanos.vercel.app",
   },
   {
@@ -54,7 +54,7 @@ const projects = [
     count: 6,
     ext: "png",
     type: "desktop",
-    github: "https://github.com/yourusername/humanos",
+    github: "https://github.com/rudanishaili/smart-device-explorer",
     live: "https://humanos.vercel.app",
   },
 ];
